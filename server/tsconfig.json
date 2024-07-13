@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6", // Phụ thuộc vào phiên bản Node.js bạn đang dùng
+      "module": "commonjs",
+      "lib": ["es6"], // Có thể cần thêm "dom" nếu bạn sử dụng các kiểu liên quan đến trình duyệt
+      "declaration": true,
+      "outDir": "./dist",
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true
+    },
+    "include": ["server.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
