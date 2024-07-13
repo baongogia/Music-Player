@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.album-list {
+  width: 100%;
+}
+
+.slick-arrow {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.slick-arrow:hover {
+  opacity: 1;
+}
+
+.active {
+  background-color: rgba(7, 82, 7, 0.787);
+}
